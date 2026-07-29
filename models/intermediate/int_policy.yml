@@ -4,6 +4,10 @@ models:
   - name: int_policy
     description: "Policy-level intermediate model with derived policy attributes."
 
+    config:
+      tags:
+        - policy
+
     columns:
       - name: policy_id
         tests:

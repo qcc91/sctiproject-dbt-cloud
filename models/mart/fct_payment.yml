@@ -4,6 +4,10 @@ models:
   - name: fct_payment
     description: "Payment fact table at payment-level grain."
 
+    config:
+      tags:
+        - payment
+
     columns:
       - name: payment_id
         tests:

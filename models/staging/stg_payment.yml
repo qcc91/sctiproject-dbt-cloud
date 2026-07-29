@@ -4,6 +4,10 @@ models:
   - name: stg_payment
     description: "Cleaned payment data from RAW.payment."
 
+    config:
+      tags:
+        - payment
+
     columns:
       - name: payment_id
         tests:

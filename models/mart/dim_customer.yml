@@ -4,6 +4,10 @@ models:
   - name: dim_customer
     description: "Customer dimension for BI reporting. PII fields are excluded."
 
+    config:
+      tags:
+        - customer
+
     columns:
       - name: customer_id
         tests:

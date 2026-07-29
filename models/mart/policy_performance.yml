@@ -4,6 +4,10 @@ models:
   - name: policy_performance
     description: "Policy-level performance mart combining premium, claim and payment metrics."
 
+    config:
+      tags:
+        - final
+
     columns:
       - name: policy_id
         tests:

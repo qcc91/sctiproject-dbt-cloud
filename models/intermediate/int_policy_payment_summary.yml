@@ -3,6 +3,11 @@ version: 2
 models:
   - name: int_policy_payment_summary
     description: "Aggregated payment metrics at policy level."
+
+    config:
+      tags:
+        - policy + payment
+
     columns:
       - name: policy_id
         tests:

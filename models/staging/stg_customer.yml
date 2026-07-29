@@ -4,6 +4,10 @@ models:
   - name: stg_customer
     description: "Cleaned customer data from RAW.customer."
 
+    config:
+      tags:
+        - customer
+
     columns:
       - name: customer_id
         tests:

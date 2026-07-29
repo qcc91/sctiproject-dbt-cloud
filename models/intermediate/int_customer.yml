@@ -4,6 +4,10 @@ models:
   - name: int_customer
     description: "Customer-level intermediate model with derived customer attributes."
 
+    config:
+      tags:
+        - customer
+
     columns:
       - name: customer_id
         tests:
