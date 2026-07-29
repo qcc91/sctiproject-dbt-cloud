@@ -4,6 +4,10 @@ models:
   - name: stg_claim
     description: "Cleaned claim data from RAW.claim."
 
+    config:
+      tags:
+        - claim
+
     columns:
       - name: claim_id
         tests:

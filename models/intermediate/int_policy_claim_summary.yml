@@ -3,6 +3,11 @@ version: 2
 models:
   - name: int_policy_claim_summary
     description: "Aggregated claim metrics at policy level."
+
+    config:
+      tags:
+        - payment + claim
+
     columns:
       - name: policy_id
         tests:

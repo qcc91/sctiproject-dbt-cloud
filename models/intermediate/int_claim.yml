@@ -4,6 +4,10 @@ models:
   - name: int_claim
     description: "Claim-level intermediate model with derived claim attributes."
 
+    config:
+      tags:
+        - claim
+
     columns:
       - name: claim_id
         tests:

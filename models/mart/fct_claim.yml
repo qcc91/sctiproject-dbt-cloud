@@ -4,6 +4,10 @@ models:
   - name: fct_claim
     description: "Claim fact table at claim-level grain."
 
+    config:
+      tags:
+        - claim
+
     columns:
       - name: claim_id
         tests:

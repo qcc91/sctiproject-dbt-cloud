@@ -4,6 +4,10 @@ models:
   - name: int_payment
     description: "Payment-level intermediate model with derived payment attributes."
 
+    config:
+      tags:
+        - payment
+
     columns:
       - name: payment_id
         tests:

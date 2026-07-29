@@ -4,6 +4,10 @@ models:
   - name: stg_policy
     description: "Cleaned policy data from RAW.policy."
 
+    config:
+      tags:
+        - policy
+
     columns:
       - name: policy_id
         tests:

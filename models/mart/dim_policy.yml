@@ -4,6 +4,10 @@ models:
   - name: dim_policy
     description: "Policy dimension for BI reporting."
 
+    config:
+      tags:
+        - policy
+
     columns:
       - name: policy_id
         tests:
