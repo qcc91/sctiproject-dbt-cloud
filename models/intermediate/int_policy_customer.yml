@@ -6,7 +6,9 @@ models:
 
     config:
       tags:
-        - payment + customer
+        - payment
+        - customer
+        - phase2
 
     columns:
       - name: policy_id
